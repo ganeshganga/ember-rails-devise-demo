@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: ember_rails_devise_dev
+
+test:
+  adapter: postgresql
+  database: ember_rails_devise_test
+
+#dummy to get assets:precompile to work
+#see http://devcenter.heroku.com/articles/rails31_heroku_cedar
+#production:
+#  adapter: postgresql
+#  database: crambear_production
+#  username: postgres
+#  password: pwwwwww23
